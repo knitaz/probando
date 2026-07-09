@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+struct Auto{
+    string marca;
+    string modelo;
+    float precio;
+    bool stock;
+};
+int main(){
+    cout<<"Estructuras tipo struct"<<endl;
+    Auto autoAux;
+    autoAux.marca="Ford";
+    autoAux.modelo="F150";
+    autoAux.precio=25000;
+    autoAux.stock=true;
+    cout<<autoAux.marca<<autoAux.modelo<<autoAux.precio<<autoAux.stock;
+    return 0;
+}
