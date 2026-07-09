@@ -13,6 +13,7 @@ int main(){
     autoAux.modelo="F150";
     autoAux.precio=25000;
     autoAux.stock=true;
+    cout<<"Datos de Auto";
     cout<<autoAux.marca<<autoAux.modelo<<autoAux.precio<<autoAux.stock;
     return 0;
 }
